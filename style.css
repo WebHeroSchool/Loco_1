@@ -215,7 +215,7 @@
     border-radius: 19px;
 }
 
-.second_page{
+.subsection_1{
     position: relative;
     bottom: 410px;
     width: 210.32vh;
@@ -225,7 +225,7 @@
 
 }
 
-.second_page__image_1{
+.subsection_1__image_1{
     height: 450px;
     width: 450px;
     position: relative;
@@ -234,7 +234,7 @@
     z-index: 1;
 }
 
-.second_page__image_2{
+.subsection_1__image_2{
     height: 300px;
     width: 300px;
     position: relative;
@@ -243,7 +243,7 @@
     right: 325px;
 }
 
-.second_page__border{
+.subsection_1__border{
     position: relative;
     left: 65%;
     bottom: 50%;
@@ -255,7 +255,7 @@
     z-index: 20;
 }
 
-.second_page__border_title{
+.subsection_1__border_title{
     position: relative;
     line-height: 41px;
     font-size: 39px;
@@ -265,7 +265,7 @@
 
 }
 
-.second_page__border_subtitle{
+.subsection_1__border_subtitle{
     width: 350px;
     position: relative;
     line-height: 16px;
@@ -276,7 +276,7 @@
     bottom: 7%;
 }
 
-.second_page__text{
+.subsection_1__text{
     font-weight:normal;
     top:10%;
     padding: 0 35px 0 45px;
@@ -285,7 +285,7 @@
     opacity: 0.5;
 }
 
-.second_page__colors{
+.subsection_1__colors{
     position: relative;
     display:flex;
     flex-flow: nowrap column;
@@ -297,18 +297,18 @@
     padding:0 0 0 45px;
 }
 
-.second_page__colors p{
+.subsection_1__colors p{
     margin: 0 10px 0 10px;
 }
 
-.second_page__colors p:first-child{
+.subsection_1__colors p:first-child{
     width: 30px;
     height: 30px;
     background: #DEDEDE;
     border-radius: 50%;
 }
 
-.second_page__colors p:nth-child(2){
+.subsection_1__colors p:nth-child(2){
     width: 38px;
     height: 38px;
     background: #F29F9F;
@@ -316,21 +316,21 @@
     border-bottom: 10px;
 }
 
-.second_page__colors p:nth-child(3){
+.subsection_1__colors p:nth-child(3){
     width: 30px;
     height: 30px;
     background: #A8BFF9;
     border-radius: 50%;
 }
 
-.second_page__colors p:nth-child(4){
+.subsection_1__colors p:nth-child(4){
     width: 30px;
     height: 30px;
     background: #90BD8F;
     border-radius: 50%;
 }
 
-.second_page__price{
+.subsection_1__price{
     position: relative;
     width: 100px;
     bottom: 114px;
@@ -340,7 +340,7 @@
     font-size: 40px;
 }
 
-.second_page__number_border{
+.subsection_1__number_border{
     display: inline-block;
     width: 100px;
     height: 44px;
@@ -352,14 +352,14 @@
 
 }
 
-.second_page__number_border > div{
+.subsection_1__number_border > div{
     position: relative;
     display: inline-block;
     margin: 13px 0 0 17px;
     word-spacing: 15px;
 }
 
-.second_page__add_to_card{
+.subsection_1__add_to_card{
     display: inline-block;
     width: 250px;
     height: 44px;
@@ -370,11 +370,11 @@
     bottom: 132px;
 }
 
-.second_page__add_to_card > div{
+.subsection_1__add_to_card > div{
     margin: 12px 0 0 30px;
 }
 
-.second_page__others{
+.subsection_1__others{
     position: relative;
     width: 300px;
     bottom: 340px;
@@ -382,7 +382,7 @@
     font-size: 15px;
 }
 
-.second_page__others >div:first-child{
+.subsection_1__others >div:first-child{
     position: relative;
     left: 270px;
     bottom: 10px;
@@ -392,7 +392,7 @@
     transform: rotate(-180deg);
 }
 
-.second_page__others > div:last-child{
+.subsection_1__others > div:last-child{
     position: relative;
     left: 423px;
     bottom: 15px;
@@ -403,7 +403,7 @@
     color:black;
 }
 
-.second_page__others > div:last-child::before{
+.subsection_1__others > div:last-child::before{
 
     content: '';
     width: 35%;
@@ -667,60 +667,60 @@
       display: none;
     }
 
-    .second_page{
+    .subsection_1{
       width: 99.7%;
       height: 2317px;
       bottom: 34.1em;
     }
 
-    .second_page__image_2{
+    .subsection_1__image_2{
       display: none;
     }
 
-    .second_page__image_1{
+    .subsection_1__image_1{
       left: 25%;
       height: 730px;
       width: 730px;
     }
 
-    .second_page__border{
+    .subsection_1__border{
       top:400px;
       left: 15%;
       height: 1030px;
       width: 1030px;
     }
 
-    .second_page__border_title{
+    .subsection_1__border_title{
       font-size: 79px;
       width: 890px;
       top:20px;
     }
-    .second_page__border_subtitle{
+    .subsection_1__border_subtitle{
       font-size: 39px;
       width: 550px;
       top:10px;
     }
 
-    .second_page__text{
+    .subsection_1__text{
       font-size: 35px;
       line-height: 39px;
       left: 20px;
       margin-top:90px;
     }
 
-    .second_page__colors{
+    .subsection_1__colors{
       top:99px;
       width: 470px;
     }
 
-    .second_page__colors p:first-child{
+    .subsection_1__colors p:first-child{
         width: 90px;
         height: 90px;
         background: #DEDEDE;
         border-radius: 50%;
     }
 
-    .second_page__colors p:nth-child(2){
+    .subsection_1__colors p:nth-child(2){
         width: 114px;
         height: 114px;
         background: #F29F9F;
@@ -728,14 +728,14 @@
         border-bottom: 10px;
     }
 
-    .second_page__colors p:nth-child(3){
+    .subsection_1__colors p:nth-child(3){
         width: 90px;
         height: 90px;
         background: #A8BFF9;
         border-radius: 50%;
     }
 
-    .second_page__colors p:nth-child(4){
+    .subsection_1__colors p:nth-child(4){
         width: 90px;
         height: 90px;
         background: #90BD8F;
@@ -744,28 +744,28 @@
 
 
 
-    .second_page__price{
+    .subsection_1__price{
     bottom:36px;
     left: 70%;
     font-size: 60px;
     }
 
-    .second_page__number_border{
+    .subsection_1__number_border{
       display: none;
     }
 
-    .second_page__add_to_card{
+    .subsection_1__add_to_card{
       top:30px;
       font-size: 50px;
       width: 900px;
       height: 100px;
     }
 
-    .second_page__add_to_card > div{
+    .subsection_1__add_to_card > div{
       margin: 12px 20px 0 160px;
     }
 
-    .second_page__others{
+    .subsection_1__others{
       display: none;
     }
 

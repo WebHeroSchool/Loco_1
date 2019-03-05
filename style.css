@@ -9,13 +9,19 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src:url(fonts/Montserrat-Light.ttf);
+    font-weight: lighter;
+}
+
 .wrapper{
     font-family: Montserrat;
     margin: 0;
     padding:0;
     width: 1035.2px;
     height: 299.5vh;
-    background-image: linear-gradient(to right, black 35%, white 10%);
+    background-image: linear-gradient(to right, black 500px, white 10%);
     background-position: left bottom;;
     background-repeat:no-repeat;
 
@@ -24,6 +30,7 @@
 .header{
     position: relative;
     bottom: 28px;
+    width: 100vh;
 }
 
 .header__logo {
@@ -33,6 +40,7 @@
     left: 62px;
     top:25px;
     font-size: 30px;
+    font-weight: lighter;
     letter-spacing: 0.07em;
     color: #FFFFFF;
 }
@@ -76,24 +84,25 @@
     bottom: 96px;
     position: relative;
     background-color:#EDECE8;
-    left: 1467px;
+    left: 203.1vh;
   }
 .icon_1{
     width:26px;
     height:3px;
-    margin-top: 1px;
-    bottom:117px;
+    top:17px;
+    left:15px;
     position: absolute;
     background-color:#222;
-    left: 1485px;
+
 }
 .icon_2{
     width:26px;
     height:3px;
-    bottom:125px;
+    top:29px;
+    left:15px;
     position: absolute;
     background-color:#222;
-    left: 1485px;
+
 }
 
 .section{
@@ -172,27 +181,27 @@
     margin: 0 0 0 11px;
     float: left;
     list-style:none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     border-radius: 50%;
     border: 5px solid #fff;
     background: #fff;
 }
 .vk_icon{
-    width: 20px;
-    height: 20px;
-    margin: 11px 0 0 9px;
+    width: 16px;
+    height: 16px;
+    margin: 11px 0 0 7px;
 }
 .facebook_icon{
-    width: 20px;
-    height: 20px;
-    margin: 10px 0 0 9px;
+    width: 16px;
+    height: 16px;
+    margin: 9px 0 0 7px;
 }
 .inst_icon{
-    width: 24px;
-    height: 24px;
-    margin: 9px 0 0 8px;
+    width: 16px;
+    height: 16px;
+    margin: 9px 0 0 7px;
 }
 .page_next{
     position: absolute;
@@ -415,7 +424,7 @@
     transform-origin: 100% 0;
 }
 
-.third_page{
+.subsection_2{
     position: relative;
     bottom: 410px;
     width: 210.32vh;
@@ -424,7 +433,7 @@
     background-size: cover;
 }
 
-.third_page__image_1{
+.subsection_2__image_1{
     position: relative;
     width: 800px;
     height: 570px;
@@ -435,7 +444,7 @@
      0px 20px 45px rgba(0,0,0,0.10);
 }
 
-.third_page__black_line{
+.subsection_2__black_line{
     position: relative;
     width: 73px;
     height: 729px;
@@ -445,7 +454,7 @@
     z-index: 0;
 }
 
-.third_page__border{
+.subsection_2__border{
     position: relative;
     width: 475px;
     height: 351px;
@@ -456,7 +465,7 @@
     background: #FAE8E4;
 }
 
-.third_page__border_title{
+.subsection_2__border_title{
     position: relative;
     line-height: 41px;
     font-size: 39px;
@@ -466,7 +475,7 @@
 
 }
 
-.third_page__border_subtitle{
+.subsection_2__border_subtitle{
     width: 350px;
     position: relative;
     line-height: 16px;
@@ -477,7 +486,7 @@
     bottom: 7%;
 }
 
-.third_page__text{
+.subsection_2__text{
     font-weight:normal;
     top:10%;
     padding: 0 35px 0 45px;
@@ -486,7 +495,7 @@
     opacity: 0.5;
 }
 
-.third_page__number_border{
+.subsection_2__number_border{
     display: inline-block;
     width: 100px;
     height: 44px;
@@ -498,14 +507,14 @@
 
 }
 
-.third_page__number_border > div{
+.subsection_2__number_border > div{
     position: relative;
     display: inline-block;
     margin: 13px 0 0 17px;
     word-spacing: 15px;
 }
 
-.third_page__add_to_card{
+.subsection_2__add_to_card{
     display: inline-block;
     width: 250px;
     height: 44px;
@@ -517,11 +526,11 @@
 
 }
 
-.third_page__add_to_card > div{
+.subsection_2__add_to_card > div{
     margin: 12px 0 0 30px;
 }
 
-.third_page__others{
+.subsection_2__others{
     position: relative;
     width: 300px;
     top:12em;
@@ -529,7 +538,7 @@
     font-size: 15px;
 }
 
-.third_page__others >div:first-child{
+.subsection_2__others >div:first-child{
     position: relative;
     left: 270px;
     bottom: 10px;
@@ -539,7 +548,7 @@
     transform: rotate(-180deg);
 }
 
-.third_page__others > div:last-child{
+.subsection_2__others > div:last-child{
     position: relative;
     left: 324px;
     bottom: 15px;
@@ -550,7 +559,7 @@
     color:black;
 }
 
-.third_page__others > div:last-child::before{
+.subsection_2__others > div:last-child::before{
 
     content: '';
     width: 35%;
@@ -562,14 +571,98 @@
     transform-origin: 100% 0;
 }
 
+@media (max-width:932px){
+.wrapper{
+        height: 279vh;
+        background-image: linear-gradient(to right, black 35%, white 10%);
+}
+
+.section__image {
+      left: 180px;
+      width: 420px;
+      height: 420px;
+}
+
+.header{
+        width: 100%;
+}
+
+.header__language {
+      position: relative;
+      width: 31px;
+      height: 25px;
+      left: 340px;
+      font-size: 20px;
+      text-align: right;
+      color: #FFFFFF;
+}
+
+.header__language_arrow {
+      width: 4vmin;
+      height: 4vmin;
+      box-sizing: border-box;
+      position: relative;
+      left: 360px;
+      bottom: 30px;
+      transform: rotate(135deg);
+      color: white;
+}
+
+  .section__title {
+    line-height: 60px;
+    position: relative;
+    width: 367px;
+    height: 127px;
+    left: 735px;
+    bottom: 520px;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+  .section__article {
+    position: relative;
+    width: 467px;
+    height: 127px;
+    left: 735px;
+    bottom: 530px;
+    line-height: 23px;
+    font-size: 15px;
+    font-style: normal;
+    }
+
+    .section__remark_1 {
+    position: relative;
+    width: 193px;
+    height: 44px;
+    left: 735px;
+    bottom: 470px;
+    font-size: 14px;
+    border: 1.5px solid black;
+    }
+
+    .section__remark_2 {
+    position: relative;
+    width: 193px;
+    height: 44px;
+    left: 989px;
+    bottom: 501px;
+    font-size: 14px;
+    }
+
+}
 
 
-@media screen and (max-width: 1035px){
+
+@media screen and (max-width: 980px){
 
     .wrapper{
-      width: 74vh;
+      width: 73.6vh;
       height: 4659px;
       background-image: none;
+    }
+
+    .header{
+      width: 100%;
     }
 
     .header__logo{
@@ -620,15 +713,15 @@
     .icon_1{
       width: 100px;
       height: 7px;
-      left: 89%;
-      bottom: 240px;
+      left: 30%;
+      top:30%;
     }
 
     .icon_2{
       width: 100px;
       height: 7px;
-      left: 89%;
-      bottom: 220px;
+      left: 30%;
+      top:50%;
     }
 
     .section__title{
@@ -769,80 +862,80 @@
       display: none;
     }
 
-    .third_page{
+    .subsection_2{
       height: 2317px;
       width: 80em;
       bottom: 548px;
     }
 
-    .third_page__image_1{
+    .subsection_2__image_1{
       width: 1200px;
       height: 850px;
       left: 3%;
       top:250px;
     }
 
-    .third_page__black_line{
+    .subsection_2__black_line{
       height: 2310px;
       width: 103px;
       bottom: 850px;
     }
 
-    .third_page__border{
+    .subsection_2__border{
       left: 15%;
       bottom: 92%;
       height: 650px;
       width: 900px;
     }
 
-    .third_page__border_title{
+    .subsection_2__border_title{
       font-size: 79px;
       width: 900px;
       top:40px;
     }
 
-    .third_page__border_subtitle{
+    .subsection_2__border_subtitle{
       font-size: 39px;
       width: 550px;
       top:20px;
       margin:80px 0 100px 0;
     }
 
-    .third_page__text{
+    .subsection_2__text{
       font-size: 35px;
       line-height: 39px;
       left: 20px;
       padding: 0 85px 0 90px;
     }
 
-    .third_page__number_border{
+    .subsection_2__number_border{
       display: none;
     }
 
-    .third_page__add_to_card{
+    .subsection_2__add_to_card{
       top:50px;
       font-size: 50px;
       width: 750px;
       height: 100px;
     }
-    .third_page__add_to_card > div{
+    .subsection_2__add_to_card > div{
       margin-left: 100px;
     }
 
-    .third_page__others {
+    .subsection_2__others {
     width: 600px;
     top: 3em;
     left: 405px;
     font-size: 55px;
     }
 
-    .third_page__others >div:first-child{
+    .subsection_2__others >div:first-child{
       top:30px;
       width: 460px;
       left:0;
     }
 
-    .third_page__others >div:last-child{
+    .subsection_2__others >div:last-child{
       top:24px;
       left: 438px;
     }

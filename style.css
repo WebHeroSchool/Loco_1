@@ -23,7 +23,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
 .wrapper{
     font-family: Montserrat;
-    background-image: linear-gradient(to right, black 35%, white 10%);
+    background-image: linear-gradient(to right, black 32%, white 10%);
     background-position: left bottom;;
     background-repeat:no-repeat;
 }
@@ -60,6 +60,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 .header__language{
     position: relative;
     top:30px;
+    right: 50px;
     color: #FFFFFF;
 }
 
@@ -87,8 +88,8 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 	}
 
   .menu_btn{
-    width:52px;
-    height:52px;
+    width:82px;
+    height:82px;
     bottom: 96px;
     background-color:#EDECE8;
     left: 80%;
@@ -96,48 +97,48 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
   .icon_1{
     position: relative;
-    top:20px;
-    left: 15px;
-    width:26px;
-    height:3px;
+    top:30px;
+    left: 24px;
+    width:36px;
+    height: 3.48px;
     background-color:#222;
 
   }
 
   .icon_2{
     position: relative;
-    top:30px;
-    left: 15px;
-    width:26px;
-    height:3px;
+    top:42px;
+    left: 24px;
+    width:36px;
+    height: 3.48px;
     background-color:#222;
   }
 
     /* основное */
 
 
-  .section__special{
+  .main_page__special{
     display: flex;
     justify-content: space-between;
 
   }
-  .section__image{
-    width: 480px;
-    height: 480px;
+  .main_page__image{
+    width: 499px;
+    height: 512px;
     position: relative;
-    left: 280px;
+    left: 16%;
     top:40px;
   }
 
-  .section__border{
+  .main_page__border{
     width: 420px;
-    height: 480px;
+    height: 420px;
     position: relative;
-    right: 250px;
+    right: 270px;
     top:100px;
   }
 
-  .section__title{
+  .main_page__title{
     line-height: 60px;
     position: relative;
     width: 367px;
@@ -147,7 +148,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
   }
 
-  .section__article{
+  .main_page__article{
     position: relative;
     width: 400px;
     height: 127px;
@@ -156,7 +157,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     font-style: normal;
   }
 
-  .section__remark_1{
+  .main_page__remark_1{
     position: relative;
     width: 193px;
     height: 44px;
@@ -165,11 +166,11 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     border: 1.5px solid black;
   }
 
-  .section__remark_1 > div{
+  .main_page__remark_1 > div{
     margin: 15px 0 0 33px;
   }
 
-  .section__remark_2{
+  .main_page__remark_2{
     position: relative;
     width: 193px;
     height: 44px;
@@ -187,11 +188,11 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     font-size: 25px;
   }
 
-  .section__container{
+  .main_page__container{
     position: relative;
-    top:100px;
+    top:70px;
     min-width: 200px;
-    max-width: 50%;
+    max-width: 49.03%;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -199,8 +200,10 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
   }
 
   .social{
+    position: relative;
     width: 300px;
     height: 50px;
+    left: 30px;
   }
 
   .social > li{
@@ -222,14 +225,13 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     margin: 11px 0 0 7px;
   }
   .facebook_icon{
-    width: 16px;
-    height: 16px;
-    margin: 9px 0 0 7px;
+    width: 10px;
+    margin: 5px 0 0 10px;
   }
   .inst_icon{
     width: 16px;
     height: 16px;
-    margin: 9px 0 0 7px;
+    margin: 8px 0 0 7px;
   }
 
   .page_next{
@@ -252,12 +254,18 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
 @media screen and (max-width: 1296px){
 
-  .section__image{
-    left: 200px;
+  .header__language{
+      right: 20px;
   }
 
-  .section__border{
-    right: 100px;
+  .main_page__image{
+      left: 14%;
+      width: 469px;
+      height: 492px;
+  }
+
+  .main_page__border{
+    right: 11%;
   }
 
 }
@@ -266,24 +274,40 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
   .wrapper{
     background-image: linear-gradient(to right, black 32%, white 10%);
   }
-  .section__image{
-    top:100px;
-    height: 400px;
-    width: 400px;
+  .main_page__image{
+    left: 11.8%;
+    height: 429px;
+    width: 452px;
+  }
+
+  .main_page__container{
+    top:133px;
   }
 }
 
-@media screen and (max-width:1242px){
-  .section__image{
-    left: 100px;
+@media screen and (max-width:1185px){
+  .main_page__border{
+    right: 5%;
   }
+
 }
 
 @media screen and (max-width:1062px){
-  .section__image{
-    width: 300px;
-    height: 300px;
-    top:120px;
+
+  .header__language{
+      left: 15px;
+  }
+
+
+  .main_page__image{
+    width: 369px;
+    height: 392px;
+    top:70px;
+    left: 14%;
+  }
+
+  .main_page__border{
+    right: 3%;
   }
 }
 
@@ -298,10 +322,10 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     top: 10px;
   }
 
-  .section__image{
+  .main_page__image{
     display: none;
   }
-  .section__special{
+  .main_page__special{
     height: 670px;
     background-image: url(images/mobile_1.png);
     background-repeat: no-repeat;
@@ -309,11 +333,14 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     background-clip: border-box;
   }
 
+.header__language{
+  font-size: 0;
+}
 
   .header__language_arrow{
     position: relative;
     left: 43vh;
-    top:85vh;
+    top:89vh;
 
   }
 
@@ -327,7 +354,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     border-color: #000000;
   }
 
-  .section__border{
+  .main_page__border{
     left: 29%;
     top:70%;
     width:0;
@@ -337,7 +364,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     min-height: 200px;
   }
 
-.section__title{
+.main_page__title{
 
   font-size: 50px;
   width: 0;
@@ -345,14 +372,14 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
   min-width: 200px;
   }
 
-  .section__article{
+  .main_page__article{
     display: none;
   }
 
-  .section__remark_1{
+  .main_page__remark_1{
     display: none;
   }
-  .section__remark_2{
+  .main_page__remark_2{
     display: none;
   }
 
@@ -371,14 +398,14 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 }
 
 @media screen and (max-width: 446px){
-  .section__title{
+  .main_page__title{
     font-size: 32px;
     line-height: 41px;
   }
 }
 /* второй этаж */
 
-.section_2{
+.page_with_bags{
     position: relative;
     top: 380px;
     width: auto;
@@ -388,9 +415,9 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
 }
 
-.section_2__images{
+.page_with_bags__images{
   display: none;
 }
-.section_3{
+.page_with_clothes{
     display: none;
 }

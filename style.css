@@ -252,6 +252,12 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     border-radius: 19px;
   }
 
+@media screen and (max-width: 1434px){
+  .main_page__border{
+    right: 120px;
+  }
+}
+
 @media screen and (max-width: 1296px){
 
   .header__language{

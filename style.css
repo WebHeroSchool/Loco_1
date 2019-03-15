@@ -398,7 +398,7 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
 .page_with_bags{
     position: relative;
-    top: 2spx;
+    bottom: 100px;
     width: auto;
     height: 100.1vh;
     background: #FAE8E4;

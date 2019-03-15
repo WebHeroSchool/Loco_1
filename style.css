@@ -372,6 +372,9 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
     font-size: 50px;
   }
 
+.first_floor__container_2{
+    display: none;
+}
 
   .first_floor__mobile_arrow{
     display: block;
@@ -397,8 +400,6 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 /* второй этаж */
 
 .page_with_bags{
-    position: relative;
-    bottom: 100px;
     width: auto;
     height: 100.1vh;
     background: #FAE8E4;

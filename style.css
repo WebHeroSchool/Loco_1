@@ -401,15 +401,295 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
 .page_with_bags{
     width: auto;
-    height: 100.1vh;
+    height: auto;
     background: #FAE8E4;
     background-size: cover;
+}
 
+.page_with_bags__container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 150px;
 }
 
 .page_with_bags__images{
+    margin-top: 100px;
+}
+
+.page_with_bags__images > img{
+    width: 100%;
+}
+
+.page_with_bags__bags_border{
+    box-sizing: border-box;
+    margin-top: 128px;
+    margin-left: 70px;
+    width: 488px;
+    height: 556px;
+    background: #FFFFFF;
+
+    box-shadow: 13px 13px 45px rgba(0,0,0,0.11),
+    13px 13px 45px rgba(0,0,0,0.10);
+    padding: 40px 65px 44px 55px;
+}
+
+.bags_border__title{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 41px;
+}
+
+.bags_border__subtitle{
+    margin-top: 17px;
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    opacity: 0.5;
+}
+
+.bags_border__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+
+.bags_border__container{
+    display: flex;
+    justify-content: space-between;
+    width: 368px;
+    margin-top: 8px;
+}
+
+.bags_border__colors{
+    display:flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+    height: 90px;
+}
+
+.bags_border__colors >p{
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bags_border__colors >p:first-child{
+    background: #DEDEDE;
+}
+
+.bags_border__colors >p:nth-child(2){
+    width: 38px;
+    height: 38px;
+    background: #F29F9F;
+    border-radius: 50%;
+    border-bottom: 10px;
+}
+
+.bags_border__colors >p:nth-child(3){
+    background: #A8BFF9;
+}
+
+.bags_border__colors >p:last-child{
+    background: #90BD8F;
+}
+
+.bags_border__price{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    align-self: center;
+}
+
+.bags_border__box_container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.bags_borders__number{
+    width: 100px;
+    height: 44px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+}
+
+.bags_borders__number >div{
+  margin: 13px 0 0 17px;
+  word-spacing: 15px;
+}
+
+.bags_border__add_to_card{
+    width: 253px;
+    height: 44px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+}
+
+.bags_border__add_to_card >div{
+    margin: 20px 49px 30px 41px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+}
+
+.bags_border__others{
+    display: flex;
+    position: relative;
+    top:100px;
+    right: 48px;
+    width: 488px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.bags_border__others>div{
+    margin-left: 9px;
+}
+
+.mobile_bag{
+    display: none;
+}
+@media screen and (max-width:1166px){
+    .page_with_bags__images{
+      margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:971px){
+
+  .page_with_bags__container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 56px;
+  }
+  .page_with_bags__images{
+    display: none;
+  }
+
+  .mobile_bag{
+    position: relative;
+    display: flex;
+    height: 216px;
+    padding-top: 56px;
+  }
+
+  .page_with_bags__bags_border{
+    margin: 20px 27px 0 29px;
+    width: 320px;
+    height: 281px;
+    padding: 15.59px 29px 25.41px 29px;
+    box-sizing: border-box;
+  }
+
+  .bags_border__title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .bags_border__subtitle{
+    margin-top: 0.85px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.07em;
+  }
+
+.bags_border__text{
+    width: 252px;
+    font-size: 9px;
+    line-height: 13px;
+
+}
+
+.bags_border__container{
+    width: 245px;
+    justify-content:space-around;
+    margin-top: 12.05px;
+}
+
+.bags_border__colors{
+    height: auto;
+}
+
+.bags_border__colors >p{
+    margin: 0 10px 0 0;
+    width: 23.35px;
+    height: 22.89px;
+    border-radius: 50%;
+}
+
+.bags_border__colors >p:first-child{
+    background: #DEDEDE;
+}
+
+.bags_border__colors >p:nth-child(2){
+    width: 29.39px;
+    height: 29px;
+    background: #F29F9F;
+    border-radius: 50%;
+    border-bottom: 10px;
+}
+
+.bags_border__colors >p:nth-child(3){
+    background: #A8BFF9;
+}
+
+.bags_border__colors >p:last-child{
+    background: #90BD8F;
+}
+
+.bags_border__price{
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 40px;
+    align-self:center;
+
+}
+
+.bags_border__box_container{
+    margin-top: 0;
+    width: 261px;
+}
+
+.bags_border__add_to_card{
+    margin-top: 34px;
+    width: 260px;
+    height: 37px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.bags_border__add_to_card>div{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+    text-align: center;
+}
+.bags_borders__number{
   display: none;
 }
+.bags_border__others{
+  display: none;
+}
+}
+
+
+/* третий этаж */
 .page_with_clothes{
     display: none;
 }

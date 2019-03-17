@@ -300,6 +300,13 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
   }
 }
 
+@media screen and (max-width:1094px){
+  .arrow_1{
+    display: none;
+  }
+}
+
+
 @media screen and (max-width:1062px){
 
   .first_floor__border{
@@ -308,11 +315,13 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
   }
 
+
   .border__article {
     top: 55px;
     position: relative;
-    width: 450px;
+    width: 430px;
     height: 127px;
+    font-size: 14px;
   }
 
   .arrow_1{
@@ -399,17 +408,512 @@ html, body, header, section, h1, h2, h3, div, span, article, ul, li, p, footer{
 
 /* второй этаж */
 
-.page_with_bags{
+.floor_with_bags{
     width: auto;
-    height: 100.1vh;
+    height: auto;
     background: #FAE8E4;
     background-size: cover;
+}
+
+.floor_with_bags__container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 150px;
+}
+
+.floor_with_bags__images{
+    margin-top: 100px;
+}
+
+.floor_with_bags__images > img{
+    width: 100%;
+}
+
+.floor_with_bags__bags_border{
+    box-sizing: border-box;
+    margin-top: 128px;
+    margin-left: 70px;
+    width: 488px;
+    height: 556px;
+    background: #FFFFFF;
+
+    box-shadow: 13px 13px 45px rgba(0,0,0,0.11),
+    13px 13px 45px rgba(0,0,0,0.10);
+    padding: 40px 65px 44px 55px;
+}
+
+.bags_border__title{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 41px;
+}
+
+.bags_border__subtitle{
+    margin-top: 17px;
+    margin-bottom: 64px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+    opacity: 0.5;
+}
+
+.bags_border__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+
+.bags_border__container{
+    display: flex;
+    justify-content: space-between;
+    width: 368px;
+    margin-top: 8px;
+}
+
+.bags_border__colors{
+    display:flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+    height: 90px;
+}
+
+.bags_border__colors >p{
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bags_border__colors >p:first-child{
+    background: #DEDEDE;
+}
+
+.bags_border__colors >p:nth-child(2){
+    width: 38px;
+    height: 38px;
+    background: #F29F9F;
+    border-radius: 50%;
+    border-bottom: 10px;
+}
+
+.bags_border__colors >p:nth-child(3){
+    background: #A8BFF9;
+}
+
+.bags_border__colors >p:last-child{
+    background: #90BD8F;
+}
+
+.bags_border__price{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 56px;
+    align-self: center;
+}
+
+.bags_border__box_container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.bags_borders__number{
+    width: 100px;
+    height: 44px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.bags_borders__number >div{
+  margin: 22px 0 0 17px;
+  word-spacing: 15px;
+}
+
+.bags_border__add_to_card{
+    width: 253px;
+    height: 44px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0px;
+}
+
+.bags_border__add_to_card >div{
+    margin: 19px 34px 30px 33px;
 
 }
 
-.page_with_bags__images{
+.bags_border__others{
+    display: flex;
+    position: relative;
+    top:100px;
+    right: 48px;
+    width: 488px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.bags_border__others>div{
+    margin-left: 9px;
+}
+
+.mobile_bag{
+    display: none;
+}
+@media screen and (max-width:1166px){
+    .floor_with_bags__images{
+      margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:971px){
+
+  .floor_with_bags__container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 56px;
+  }
+  .floor_with_bags__images{
+    display: none;
+  }
+
+  .mobile_bag{
+    position: relative;
+    display: flex;
+    width: 224px;
+    height: 326px;
+    padding-top: 6px;
+  }
+
+  .floor_with_bags__bags_border{
+    margin: -20px 27px 0 29px;
+    width: 320px;
+    height: 281px;
+    padding: 15.59px 29px 25.41px 29px;
+    box-sizing: border-box;
+  }
+
+  .bags_border__title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .bags_border__subtitle{
+    margin-top: 0.85px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.07em;
+  }
+
+.bags_border__text{
+    width: 252px;
+    font-size: 9px;
+    line-height: 13px;
+
+  }
+
+.bags_border__container{
+    width: 245px;
+    justify-content:space-around;
+    margin-top: 12.05px;
+  }
+
+.bags_border__colors{
+    height: auto;
+  }
+
+.bags_border__colors >p{
+    margin: 0 10px 0 0;
+    width: 23.35px;
+    height: 22.89px;
+    border-radius: 50%;
+  }
+
+.bags_border__colors >p:first-child{
+    background: #DEDEDE;
+  }
+
+.bags_border__colors >p:nth-child(2){
+    width: 29.39px;
+    height: 29px;
+    background: #F29F9F;
+    border-radius: 50%;
+    border-bottom: 10px;
+  }
+
+.bags_border__colors >p:nth-child(3){
+    background: #A8BFF9;
+  }
+
+.bags_border__colors >p:last-child{
+    background: #90BD8F;
+  }
+
+.bags_border__price{
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 40px;
+    align-self:center;
+
+  }
+
+.bags_border__box_container{
+    margin-top: 0;
+    width: 261px;
+  }
+
+.bags_border__add_to_card{
+    margin-top: 34px;
+    width: 260px;
+    height: 37px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+.bags_border__add_to_card>div{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+    text-align: center;
+  }
+.bags_borders__number{
+    display: none;
+  }
+.bags_border__others{
+    display: none;
+  }
+
+}
+
+
+/* третий этаж */
+.floor_with_clothes{
+  background-image: linear-gradient(to right, #ebe3d8 26.94%,
+    black 26.94%, black 32.01%, #ebe3d8 5%);
+}
+
+.floor_with_clothes_container{
+  display:flex;
+  flex-direction: row;
+  width: 83.8%;
+  margin: 0 auto;
+  padding-top:
+}
+
+.floor_with_clothes__image{
+  padding-top: 139px;
+  padding-bottom: 115px;
+  z-index: 2;
+}
+
+.floor_with_clothes__image >img{
+  box-shadow: -1px 17px 20px -4px rgba(0,0,0,0.10);
+}
+
+.floor_with_clothes__clothes_border{
+  display: flex;
+  flex-direction: column;
+  margin-top: 255px;
+  margin-left: -98px;
+  z-index: 3;
+  width: 475px;
+  height: 351px;
+  background: #FAE8E4;
+  padding: 34px 53px 45px 47px;
+  box-sizing: border-box;
+}
+
+.clothes_border__title{
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 41px;
+}
+
+.clothes_border__subtitle{
+  margin-top: 17px;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  opacity: 0.5;
+}
+
+.clothes_border__text{
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  opacity: 0.5;
+
+}
+
+.clothes_border__container{
+  margin-top: 57px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.clothes_border__number{
+  width: 100px;
+  height: 44px;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+}
+
+.clothes_border__number>div{
+  margin: 13px 0 0 17px;
+  word-spacing: 15px;
+}
+
+.clothes_border__add_to_card{
+  width: 253px;
+  height: 44px;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+}
+
+
+.clothes_border__add_to_card >div{
+  margin: 19px 43px 30px 35px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0px;
+}
+
+.clothes_border__others{
+  display: flex;
+  position: relative;
+  top:75px;
+  left: 80px;
+  width: 388px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.clothes_border__others>div{
+    margin-left: 18px;
+}
+
+.clothes_border___mobile_others{
   display: none;
 }
-.page_with_clothes{
-    display: none;
+
+@media screen and (max-width:1485px){
+  .floor_with_clothes__image >img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1210px){
+  .floor_with_clothes__clothes_border{
+    padding-bottom: 294px;
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width:971px){
+  .floor_with_clothes{
+        background-image: linear-gradient(to right,
+          #ebe3d8 27.2%,
+          black 27.2%, black 38.13%, #ebe3d8 5%);
+  }
+
+  .floor_with_clothes_container{
+    flex-direction: column;
+    align-items: center;
+    width: 96.8%;
+    padding-bottom: 38px;
+  }
+  .floor_with_clothes__image{
+    padding-top: 34px;
+    padding-bottom: 0;
+  }
+
+  .floor_with_clothes__clothes_border{
+    margin: -42.8px auto 0 auto;
+    width: 305px;
+    height: 195px;
+    padding: 22.28px 21px 28px 24.77px;
+
+  }
+
+  .clothes_border__title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .clothes_border__subtitle{
+    margin-top: 10.19px;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 0.07em;
+  }
+
+  .clothes_border__text{
+    font-size: 9px;
+    line-height: 13px;
+    margin-top: 10.86px;
+  }
+
+
+
+  .clothes_border__container{
+      margin-top: 0;
+      width: 261px;
+    }
+
+  .clothes_border__add_to_card{
+      margin-top: 22px;
+      width: 260px;
+      height: 37px;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+    }
+
+  .clothes_border__add_to_card>div{
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 0px;
+      text-align: center;
+    }
+  .clothes_border__number{
+      display: none;
+    }
+  .clothes_border__others{
+      display: none;
+    }
+  .clothes_border___mobile_others{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    padding: 37px 0  0 115px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width:613px){
+
 }
